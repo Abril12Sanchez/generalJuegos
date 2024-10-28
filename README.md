@@ -1,6 +1,6 @@
 # ProyectoMicroservicios
 
-[![Link del proyecto]([https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Render_logo.svg/512px-Render_logo.svg.png](https://www.flaticon.com/free-icon/dashboard_1828791?term=dashboard&page=1&position=2&origin=tag&related_id=1828791))](https://generaljuegos-pag.onrender.com/)
+[![Link del proyecto](https://icons8.com/icons/set/proyecto)](https://generaljuegos-pag.onrender.com/)
 
 
 Proyecto de Juegos en Microservicios. <br> 
