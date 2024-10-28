@@ -3,21 +3,9 @@ const port = 9001;
 
 const server = gateway({
   routes: [
-    {
-      prefix: "/juegos",
-      target: "https://generaljuegos.onrender.com", // Redirige al servicio de juegos
-      hooks: {},
-    },
-    {
-      prefix: "/reservas",
-      target: "https://generaljuegos-reservas.onrender.com", // Redirige al servicio de reservas
-      hooks: {},
-    },
-    {
-      prefix: "/pagos",
-      target: "https://generaljuegos-pagos.onrender.com", // Redirige al servicio de pagos
-      hooks: {},
-    },
+    { prefix: "/juegos", target: "https://generaljuegos.onrender.com" },
+    { prefix: "/reservas", target: "https://generaljuegos-reservas.onrender.com" },
+    { prefix: "/pagos", target: "https://generaljuegos-pagos.onrender.com" },
   ],
 });
 
