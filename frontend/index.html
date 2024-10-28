@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Juego de Reservas</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Juegos</title>
 </head>
 <body>
-  <h1>Lista de Juegos</h1>
-  <div id="juegosContainer"></div>
-
-  <h2>Reservar Juego</h2>
-  <button onclick="reservarJuego(1)">Reservar Juego 1</button>
-
-  <h2>Realizar Pago</h2>
-  <button onclick="realizarPago(1)">Pagar Juego 1</button>
-
-  <script src="app.js"></script>
+    <h1>Bienvenido a Juegos</h1>
+    <div class="game-list">
+        <div class="game-card">
+            <h2>Juego 1</h2>
+            <button onclick="location.href='/juegos/lista-juegos'">Ver Juegos</button>
+        </div>
+        <div class="game-card">
+            <h2>Juego 2</h2>
+            <button onclick="location.href='/reservas/reservar'">Reservar</button>
+        </div>
+        <div class="game-card">
+            <h2>Juego 3</h2>
+            <button onclick="location.href='/pagos/pagar'">Pagar</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
