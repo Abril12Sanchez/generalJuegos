@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>General Juegos</title>
+</head>
+
+<body>
+    <h1>Bienvenido a General Juegos</h1>
+    <div class="botones-container">
+        <!-- Botón para ver juegos (GET) -->
+        <button onclick="window.location.href='https://generaljuegos-gateway.onrender.com/juegos/lista-juegos'">
+            Ver Juegos
+        </button>
+
+        <!-- Formulario para hacer una reserva (POST) -->
+        <form action="https://generaljuegos-gateway.onrender.com/reservas/reservar" method="POST">
+            <button type="submit">Reservar</button>
+        </form>
+
+        <!-- Formulario para realizar un pago (POST) -->
+        <form action="https://generaljuegos-gateway.onrender.com/pagos/pagar" method="POST">
+            <button type="submit">Pagar</button>
+        </form>
+    </div>
+
+    <div class="botones-container">
+        <!-- Botón para ver juegos (GET) -->
+        <button onclick="window.location.href='https://generaljuegos-gateway.onrender.com/juegos/lista-juegos'">
+            Ver Juegossssssss
+        </button>
+
+        <!-- Formulario para hacer una reserva (POST) -->
+        <form action="https://generaljuegos-gateway.onrender.com/reservas/reservar" method="POST">
+            <button type="submit">Reservarrrr</button>
+        </form>
+
+        <!-- Formulario para realizar un pago (POST) -->
+        <form action="https://generaljuegos-gateway.onrender.com/pagos/pagar" method="POST">
+            <button type="submit">Pagarrrrrrrr</button>
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Juegos</title>
+</head>
+<body>
+    <h1>Bienvenido a Juegos</h1>
+    <div class="game-list">
+        <div class="game-card">
+            <h2>Juego 1</h2>
+            <button onclick="location.href='/juegos/lista-juegos'">Ver Juegos</button>
+        </div>
+        <div class="game-card">
+            <h2>Juego 2</h2>
+            <button onclick="location.href='/reservas/reservar'">Reservar</button>
+        </div>
+        <div class="game-card">
+            <h2>Juego 3</h2>
+            <button onclick="location.href='/pagos/pagar'">Pagar</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> -->
