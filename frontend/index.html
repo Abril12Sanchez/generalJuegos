@@ -9,23 +9,24 @@
 <body>
     <h1>Bienvenido a General Juegos</h1>
     <div class="botones-container">
-        <!-- Botón para ver juegos -->
+        <!-- Botón para ver juegos (GET) -->
         <button onclick="window.location.href='https://generaljuegos-gateway.onrender.com/juegos/lista-juegos'">
             Ver Juegos
         </button>
 
-        <!-- Botón para hacer una reserva -->
-        <button onclick="window.location.href='https://generaljuegos-gateway.onrender.com/reservas/reservar'">
-            Reservar
-        </button>
+        <!-- Formulario para hacer una reserva (POST) -->
+        <form action="https://generaljuegos-gateway.onrender.com/reservas/reservar" method="POST">
+            <button type="submit">Reservar</button>
+        </form>
 
-        <!-- Botón para realizar un pago -->
-        <button onclick="window.location.href='https://generaljuegos-gateway.onrender.com/pagos/pagar'">
-            Pagar
-        </button>
+        <!-- Formulario para realizar un pago (POST) -->
+        <form action="https://generaljuegos-gateway.onrender.com/pagos/pagar" method="POST">
+            <button type="submit">Pagar</button>
+        </form>
     </div>
 </body>
 </html>
+
 
 
 

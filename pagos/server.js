@@ -10,9 +10,9 @@ app.get("/", (req, res) => {
 
 // Procesar un pago
 app.post("/pagar", (req, res) => {
-  // Aquí puedes agregar lógica para procesar el pago
-  res.status(200).json({ message: "Pago procesado con éxito" });
+    res.status(200).json({ message: "Pago procesado con éxito" });
 });
+
 
 app.listen(port, () => {
   console.log("Microservicio Pagos escuchando en localhost:" + port);
