@@ -1,5 +1,6 @@
 const gateway = require("fast-gateway");
-const port = 9001;
+const port = process.env.PORT || 9001;
+
 
 const server = gateway({
   routes: [

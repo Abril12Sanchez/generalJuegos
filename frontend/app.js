@@ -1,3 +1,4 @@
+// Cargar los juegos al iniciar la página
 async function cargarJuegos() {
     try {
         const response = await fetch('https://generaljuegos-gateway.onrender.com/juegos/lista-juegos');
@@ -7,6 +8,7 @@ async function cargarJuegos() {
         const container = document.getElementById('juegosContainer');
         container.innerHTML = ''; // Limpiar el contenedor
 
+        // Genera una tarjeta para cada juego con opciones de reserva y pago
         data.juegos.forEach(juego => {
             const card = document.createElement('div');
             card.className = 'juego-card';
@@ -19,11 +21,10 @@ async function cargarJuegos() {
             container.appendChild(card);
         });
     } catch (error) {
-        console.error("Error cargando juegos:", error);
+        console.error("Error al cargar juegos:", error);
     }
 }
 
-  
 async function reservarJuego(id) {
     try {
         const response = await fetch('https://generaljuegos-gateway.onrender.com/reservas/reservar', {
@@ -34,9 +35,9 @@ async function reservarJuego(id) {
         if (!response.ok) throw new Error(`Error: ${response.statusText}`);
         
         const data = await response.json();
-        alert(data.message);
+        alert(data.message); // Mensaje de confirmación
     } catch (error) {
-        console.error("Error en reserva:", error);
+        console.error("Error al reservar el juego:", error);
         alert("Hubo un error al realizar la reserva.");
     }
 }
@@ -51,14 +52,12 @@ async function realizarPago(id) {
         if (!response.ok) throw new Error(`Error: ${response.statusText}`);
         
         const data = await response.json();
-        alert(data.message);
+        alert(data.message); // Mensaje de confirmación
     } catch (error) {
-        console.error("Error en pago:", error);
+        console.error("Error al realizar el pago:", error);
         alert("Hubo un error al realizar el pago.");
     }
 }
 
-  
-  // Cargar los juegos al iniciar
-  cargarJuegos();
-  
+// Llama a cargarJuegos cuando la página se carga
+cargarJuegos();
