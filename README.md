@@ -6,3 +6,5 @@ Este aplicación se divide en -- microservicios los cuales son:
 - Juegos
 - Reservar
 - Pagar
+
+![image](https://github.com/user-attachments/assets/66b7c141-1f9a-4813-ae35-2a3592e845db)
