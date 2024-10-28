@@ -1,6 +1,6 @@
 # ProyectoMicroservicios
 
-[![Link del proyecto](https://icons8.com/icons/set/proyecto)](https://generaljuegos-pag.onrender.com/)
+[![Link del proyecto](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://generaljuegos-pag.onrender.com/)
 
 
 Proyecto de Juegos en Microservicios. <br> 
