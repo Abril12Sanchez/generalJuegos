@@ -8,9 +8,22 @@
 </head>
 <body>
     <h1>Bienvenido a General Juegos</h1>
-    <div id="juegosContainer"></div>
+    <div class="botones-container">
+        <!-- Botón para ver juegos -->
+        <button onclick="window.location.href='https://generaljuegos-gateway.onrender.com/juegos/lista-juegos'">
+            Ver Juegos
+        </button>
 
-    <script src="app.js"></script>
+        <!-- Botón para hacer una reserva -->
+        <button onclick="window.location.href='https://generaljuegos-gateway.onrender.com/reservas/reservar'">
+            Reservar
+        </button>
+
+        <!-- Botón para realizar un pago -->
+        <button onclick="window.location.href='https://generaljuegos-gateway.onrender.com/pagos/pagar'">
+            Pagar
+        </button>
+    </div>
 </body>
 </html>
 
