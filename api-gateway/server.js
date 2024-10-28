@@ -5,17 +5,17 @@ const server = gateway({
   routes: [
     {
       prefix: "/juegos",
-      target: "http://localhost:8081/", // Redirige al servicio de juegos
+      target: "https://generaljuegos.onrender.com", // Redirige al servicio de juegos
       hooks: {},
     },
     {
       prefix: "/reservas",
-      target: "http://localhost:8082/", // Redirige al servicio de reservas
+      target: "https://generaljuegos-reservas.onrender.com", // Redirige al servicio de reservas
       hooks: {},
     },
     {
       prefix: "/pagos",
-      target: "http://localhost:8083/", // Redirige al servicio de pagos
+      target: "https://generaljuegos-pagos.onrender.com", // Redirige al servicio de pagos
       hooks: {},
     },
   ],
