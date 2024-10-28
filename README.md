@@ -1,5 +1,7 @@
 # ProyectoMicroservicios
-[![linkedin]()]([https://www.linkedin.com/in/abrilsanchez12](https://generaljuegos-pag.onrender.com/))
+
+[![Link del proyecto](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Render_logo.svg/512px-Render_logo.svg.png)](https://generaljuegos-pag.onrender.com/)
+
 
 Proyecto de Juegos en Microservicios. <br> 
 En este proyecto se centra en una aplicación de renta de Juegos Mecanicos, en la cual se usará la arquitectura de microservicios para la implementación de ella. 
